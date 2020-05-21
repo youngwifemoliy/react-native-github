@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default class WelcomePage extends Component {
+
     componentDidMount() {
         this.timer = setTimeout(() => {
-            //跳转到首页
+
         }, 2000);
     }
 
@@ -17,6 +18,7 @@ export default class WelcomePage extends Component {
         return (
             <View style={styles.container}>
                 <Text>WelcomePage</Text>
+                <Text>广告页面</Text>
             </View>
         );
     }
